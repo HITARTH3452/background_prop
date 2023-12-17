@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container .nav {
+    width: 99vw;
+    height: 8rem;
+    background-image: linear-gradient(black,#454545);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.container .nav a{
+    color: white;
+    text-decoration: none;
+    font-size:x-large;
+}
+
+.container .nav .home{
+    background-color: white;
+    width: 60px;
+    height:30px;
+    color: black;
+    padding: 5px 20px;
+}
+
+ .container .firstimg img{
+    width: 99vw;
+    height: 50rem;
+} 
+
+ .container .secondimg{
+    height: 50rem;
+    width: 99vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .secondimg .one img{
+    height: 46rem;
+    width: 40rem;
+}  
+
+.container .secondimg .two img{
+    height: 46rem;
+    width: 40rem;
+}  
+
+.container .secondimg .three img{
+    height: 46rem;
+    width: 40rem;
+}  
+
+ .container .thirdimg{
+    height: 50rem;
+    width: 99vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+} 
+
+.container .thirdimg .imglast img{
+    padding: px;
+    height: 47rem;
+    width: 60rem;
+}
+
+.container .thirdimg .text{
+    top: 10px;
+    color: white;
+    height: 50rem;
+    width: 65rem;
+    font-size:xx-large;
+    
+}
+
+.container .thirdimg .text p{
+    padding-top: 20rem;
+}
